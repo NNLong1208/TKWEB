@@ -282,14 +282,14 @@
 }
  .home_internships-banner-container .cta_container .link {
     text-decoration: none;
-    color: #008bdc;
+    color: #258a48;
     cursor: pointer;
     font-size: 16px;
     font-weight: 600;
     line-height: 1.25;
 }
  .home_internships-banner-container .cta_container .link:hover, .home_internships-banner-container .cta_container .link:focus {
-    color: #006bc2;
+    color: #258a48;
     text-decoration: none;
     outline: none;
 }
@@ -299,10 +299,10 @@
     outline-offset: -2px;
 }
  .home_internships-banner-container .cta_container .link:not([href]) {
-    color: #008bdc;
+    color: #258a48;
 }
  .home_internships-banner-container .cta_container .link:not([href]):hover, .home_internships-banner-container .cta_container .link:not([href]):focus {
-    color: #006bc2;
+    color: #258a48;
     text-decoration: none;
     outline: none;
 }
