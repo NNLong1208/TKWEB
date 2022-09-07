@@ -38,8 +38,10 @@
 }
 
 .carousel {
-    width:840px;
-    height:560px;
+    width:1000px;
+    height:350px;
     margin: auto;
+    border-radius: 25px 25px 25px 25px;
+    overflow: hidden;
 }
 
