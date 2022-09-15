@@ -2391,7 +2391,7 @@ a.btn.disabled,fieldset:disabled a.btn{
     border-color:#2bc561
 }
 .btn-outline-primary.focus,.btn-outline-primary:focus{
-    box-shadow:0 0 0 .2rem rgba(0,123,255,.5)
+    box-shadow:0 0 0 .2rem #258a48
 }
 .btn-outline-primary.disabled,.btn-outline-primary:disabled{
     color:#2bc561;
@@ -2403,7 +2403,7 @@ a.btn.disabled,fieldset:disabled a.btn{
     border-color:#2bc561
 }
 .btn-outline-primary:not(:disabled):not(.disabled).active:focus,.btn-outline-primary:not(:disabled):not(.disabled):active:focus,.show>.btn-outline-primary.dropdown-toggle:focus{
-    box-shadow:0 0 0 .2rem rgba(0,123,255,.5)
+    box-shadow:0 0 0 .2rem #258a48
 }
 .btn-outline-secondary{
     color:#6c757d;
@@ -3135,10 +3135,10 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     background-image:data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3e%3cpath stroke='%23fff' d='M0 2h4'/%3e%3c/svg%3e
 }
 .custom-checkbox .custom-control-input:disabled:checked~.custom-control-label::before{
-    background-color:rgba(0,123,255,.5)
+    background-color:#258a48
 }
 .custom-checkbox .custom-control-input:disabled:indeterminate~.custom-control-label::before{
-    background-color:rgba(0,123,255,.5)
+    background-color:#258a48
 }
 .custom-radio .custom-control-label::before{
     border-radius:50%
@@ -3147,7 +3147,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     background-image:data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='-4 -4 8 8'%3e%3ccircle r='3' fill='%23fff'/%3e%3c/svg%3e
 }
 .custom-radio .custom-control-input:disabled:checked~.custom-control-label::before{
-    background-color:rgba(0,123,255,.5)
+    background-color:#258a48
 }
 .custom-switch{
     padding-left:2.25rem
@@ -3180,7 +3180,7 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     transform:translateX(.75rem)
 }
 .custom-switch .custom-control-input:disabled:checked~.custom-control-label::before{
-    background-color:rgba(0,123,255,.5)
+    background-color:#258a48
 }
 .custom-select{
     display:inline-block;
@@ -3548,9 +3548,6 @@ input[type=button].btn-block,input[type=reset].btn-block,input[type=submit].btn-
     font-size:1.25rem;
     line-height:inherit;
     white-space:nowrap
-}
-.navbar-brand:focus,.navbar-brand:hover{
-    text-decoration:none
 }
 .navbar-nav{
     display:-ms-flexbox;
@@ -4197,7 +4194,7 @@ a.badge-primary:focus,a.badge-primary:hover{
 }
 a.badge-primary.focus,a.badge-primary:focus{
     outline:0;
-    box-shadow:0 0 0 .2rem rgba(0,123,255,.5)
+    box-shadow:0 0 0 .2rem #258a48
 }
 .badge-secondary{
     color:#fff;
