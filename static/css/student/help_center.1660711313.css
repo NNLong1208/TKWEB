@@ -12,6 +12,8 @@
     font-style:normal;
     font-display:block
 }
+
+
 [class*=" ic-"],[class^=ic-]{
     font-family:internshala-icons!important;
     speak:never;
