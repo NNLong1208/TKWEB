@@ -2302,6 +2302,7 @@
     }
 }
 #header .max-width-container .navbar .brand_container .navbar-brand img{
+    margin-top: 7px;
     width: 210px;
 }
 #header .max-width-container .navbar .collapse{
@@ -2323,7 +2324,7 @@
     z-index:1040
 }
 #header .max-width-container .navbar .collapse .navbar-nav li.nav-item.active a.nav-link{
-    border-bottom:2px solid #000000
+    border-bottom:2px solid #ffffff
 }
 #header .max-width-container .navbar .collapse .navbar-nav li.chat_icon_container{
     margin-left:16px;

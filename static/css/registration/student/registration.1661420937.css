@@ -24,7 +24,8 @@
     -moz-osx-font-smoothing:grayscale
 }
 [class*=" ic-24-"],[class^=ic-24-]{
-    font-size:24px
+    font-size:24px;
+    color: #258a48
 }
 [class*=" ic-16-"],[class^=ic-16-]{
     font-size:16px
@@ -2299,7 +2300,8 @@
     }
 }
 #header .max-width-container .navbar .brand_container .navbar-brand img{
-    width:112px
+    margin-top: 12px;
+    width:210px
 }
 #header .max-width-container .navbar .collapse{
     height:100%;
@@ -2319,7 +2321,7 @@
     z-index:1040
 }
 #header .max-width-container .navbar .collapse .navbar-nav li.nav-item.active a.nav-link{
-    border-bottom:2px solid #00A5EC
+    border-bottom:2px solid #258a48
 }
 #header .max-width-container .navbar .collapse .navbar-nav li.chat_icon_container{
     margin-left:16px;
@@ -3906,9 +3908,9 @@
     opacity:1
 }
 .btn.btn-primary{
-    background:#00A5EC;
+    background:#258a48;
     border-radius:3px;
-    border:1px solid #00A5EC
+    border:1px solid #258a48
 }
 .btn.btn-primary:active,.btn.btn-primary:focus,.btn.btn-primary:hover,.btn.btn-primary:not(.disabled):active,.btn.btn-primary:not(.disabled):focus,.btn.btn-primary:not(.disabled):hover{
     background:#008BDC;
@@ -3926,18 +3928,18 @@
     border-bottom-left-radius:0!important
 }
 .btn.btn-large{
-    background:#00A5EC;
+    background:#258a48;
     border-radius:4px;
-    border:1px solid #00A5EC;
+    border:1px solid #258a48;
     color:#fff;
     padding:11px 31px;
     font-size:16px;
     line-height:24px
 }
 .btn.btn-large:active,.btn.btn-large:focus,.btn.btn-large:hover,.btn.btn-large:not(.disabled):active,.btn.btn-large:not(.disabled):focus,.btn.btn-large:not(.disabled):hover{
-    background:#008BDC;
+    background:#00772e;
     box-shadow:0 2px 4px rgba(0,0,0,.08)!important;
-    border:1px solid #008BDC
+    border:1px solid #00772e
 }
 .btn.btn-large[disabled]{
     cursor:not-allowed;
@@ -3948,9 +3950,9 @@
     padding:11px 16px
 }
 .btn.btn-semilarge{
-    background:#00A5EC;
+    background:#258a48;
     border-radius:3px;
-    border:1px solid #00A5EC;
+    border:1px solid #258a48;
     color:#fff;
     padding:11px 15px;
     font-size:14px;
@@ -4021,7 +4023,7 @@
     color:#1DC1F6
 }
 .btn.btn-flat.light:hover{
-    color:#00A5EC
+    color:#258a48
 }
 .btn.btn-add{
     padding:0;
@@ -4057,12 +4059,12 @@ a.left,a.right{
 a{
     font-weight:500;
     text-decoration:none;
-    color:#008BDC;
+    color:#258a48;
     cursor:pointer;
     line-height:1.14285714
 }
 a:focus,a:hover{
-    color:#006BC2;
+    color:#258a48;
     text-decoration:none;
     outline:0
 }
@@ -4072,10 +4074,10 @@ a.focus-visible{
     outline-offset:-2px
 }
 a:not([href]){
-    color:#008BDC
+    color:#258a48
 }
 a:not([href]):focus,a:not([href]):hover{
-    color:#006BC2;
+    color:#258a48;
     text-decoration:none;
     outline:0
 }
@@ -4319,7 +4321,7 @@ input{
     color:#8A8A8A
 }
 .form-control:focus,.form-control:hover{
-    border:1px solid #00A5EC
+    border:1px solid #258a48
 }
 @supports (font-variation-settings:normal){
     .form-control{
@@ -4328,7 +4330,7 @@ input{
 }
 .form-control:focus{
     box-shadow:none;
-    caret-color:#00A5EC
+    caret-color:#258a48
 }
 .form-control::placeholder{
     color:#8A8A8A
@@ -4391,20 +4393,20 @@ input{
     border-bottom:1px solid #DDD
 }
 .has_cross_and_button.is_focused .cross_btn_container,.has_cross_and_button:active .cross_btn_container,.has_cross_and_button:focus .cross_btn_container,.has_cross_and_button:hover .cross_btn_container{
-    border-top:1px solid #00A5EC;
-    border-bottom:1px solid #00A5EC
+    border-top:1px solid #258a48;
+    border-bottom:1px solid #258a48
 }
 .has_cross_and_button:hover .form-control{
-    border:1px solid #00A5EC;
+    border:1px solid #258a48;
     border-right:none
 }
 .has_cross_and_button:active .form-control,.has_cross_and_button:focus .form-control{
-    border:1px solid #00A5EC;
+    border:1px solid #258a48;
     border-right:none;
-    caret-color:#00A5EC
+    caret-color:#258a48
 }
 .has_cross_and_button.is_focused .form-control{
-    border:1px solid #00A5EC;
+    border:1px solid #258a48;
     border-right:none
 }
 .has_cross{
@@ -4429,8 +4431,8 @@ input{
     border:1px solid #DDD
 }
 .has_cross:active,.has_cross:focus{
-    border:1px solid #00A5EC;
-    caret-color:#00A5EC
+    border:1px solid #258a48;
+    caret-color:#258a48
 }
 .has_cross .cross_btn_container .cross_btn{
     height:100%;
@@ -4449,7 +4451,7 @@ input{
     color:#484848
 }
 .has_cross.is_focused{
-    border:1px solid #00A5EC
+    border:1px solid #258a48
 }
 .has_cross.disabled .cross_btn,.has_cross.disabled .cross_btn_container .cross_btn,.has_cross.readonly .cross_btn,.has_cross.readonly .cross_btn_container .cross_btn{
     background:#F8F8F8
@@ -4494,7 +4496,7 @@ input{
     border:1px solid #1DC1F6
 }
 .has_char_count.is_focused{
-    border:1px solid #00A5EC
+    border:1px solid #258a48
 }
 .has_char_count .form-control,.has_char_count .form-control:focus,.has_char_count .form-control:hover{
     border:none!important
@@ -4568,7 +4570,7 @@ input{
     box-shadow:none
 }
 .has-success .form-control:focus{
-    border:1px solid #00A5EC;
+    border:1px solid #258a48;
     box-shadow:none
 }
 textarea.form-control{
@@ -4662,9 +4664,9 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
     border:1px solid #1DC1F6
 }
 .items-inside:focus,.items-inside:focus-within{
-    border:1px solid #00A5EC;
+    border:1px solid #258a48;
     box-shadow:none;
-    caret-color:#00A5EC
+    caret-color:#258a48
 }
 .items-inside.disabled{
     background:#F8F8F8
@@ -4925,7 +4927,7 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
     color:#484848
 }
 .popover.popover-custom.popover-dark .popover-body a{
-    color:#00A5EC
+    color:#258a48
 }
 .popover.popover-custom .popover-body{
     max-width:264px;
@@ -6395,7 +6397,7 @@ body .ui-tooltip{
 }
 .ui-datepicker .ui-datepicker-header .ui-datepicker-next:before{
     content:"\e90e";
-    color:#00A5EC
+    color:#258a48
 }
 .ui-datepicker .ui-datepicker-header .ui-datepicker-prev{
     background:0 0;
@@ -6404,7 +6406,7 @@ body .ui-tooltip{
 }
 .ui-datepicker .ui-datepicker-header .ui-datepicker-prev:before{
     content:"\e90d";
-    color:#00A5EC
+    color:#258a48
 }
 .ui-datepicker .ui-datepicker-header .ui-datepicker-next,.ui-datepicker .ui-datepicker-header .ui-datepicker-prev{
     width:24px!important;
@@ -6594,7 +6596,7 @@ body,html{
 }
 .notification.employer_campaign_ribbon{
     color:#fff;
-    background:linear-gradient(180deg,#00A5EC 0,#008BDC 170%);
+    background:linear-gradient(180deg,#258a48 0,#008BDC 170%);
     font-weight:600;
     z-index:1600
 }
@@ -7425,7 +7427,7 @@ ul.location_autocomplete_plugin li:last-child:after{
 #registration-container-right #form-container #login-link-container span{
     border:none;
     background:0 0;
-    color:#00A5EC;
+    color:#258a48;
     cursor:pointer
 }
 #registration-container-right #form-container #login-link{
