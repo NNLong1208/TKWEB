@@ -24,8 +24,7 @@
     -moz-osx-font-smoothing:grayscale
 }
 [class*=" ic-24-"],[class^=ic-24-]{
-    font-size:24px;
-    color: #258a48
+    font-size:24px
 }
 [class*=" ic-16-"],[class^=ic-16-]{
     font-size:16px
@@ -1562,7 +1561,7 @@
     }
 }
 .heading_0,.heading_0_0{
-    font-size:44px;
+    font-size:34px;
     line-height:1.18181818;
     font-weight:700
 }
@@ -2300,8 +2299,7 @@
     }
 }
 #header .max-width-container .navbar .brand_container .navbar-brand img{
-    margin-top: 12px;
-    width:210px
+    width:200px
 }
 #header .max-width-container .navbar .collapse{
     height:100%;
@@ -2321,7 +2319,7 @@
     z-index:1040
 }
 #header .max-width-container .navbar .collapse .navbar-nav li.nav-item.active a.nav-link{
-    border-bottom:2px solid #258a48
+    border-bottom:2px solid #00A5EC
 }
 #header .max-width-container .navbar .collapse .navbar-nav li.chat_icon_container{
     margin-left:16px;
@@ -3511,7 +3509,7 @@
 }
 #footer{
     position:absolute;
-    bottom:-1px;
+    bottom:-320px;
     width:100%
 }
 .generic_footer{
@@ -3908,14 +3906,14 @@
     opacity:1
 }
 .btn.btn-primary{
-    background:#258a48;
+    background:#2a9210;
     border-radius:3px;
-    border:1px solid #258a48
+    border:1px solid #b5f58b
 }
 .btn.btn-primary:active,.btn.btn-primary:focus,.btn.btn-primary:hover,.btn.btn-primary:not(.disabled):active,.btn.btn-primary:not(.disabled):focus,.btn.btn-primary:not(.disabled):hover{
-    background:#008BDC;
+    background:#87f578;
     box-shadow:0 2px 4px rgba(0,0,0,.08)!important;
-    border:1px solid #008BDC
+    border:1px solid #87f578;
 }
 .btn.btn-primary[disabled]{
     cursor:not-allowed;
@@ -3928,18 +3926,18 @@
     border-bottom-left-radius:0!important
 }
 .btn.btn-large{
-    background:#258a48;
+    background:#00A5EC;
     border-radius:4px;
-    border:1px solid #258a48;
+    border:1px solid #00A5EC;
     color:#fff;
     padding:11px 31px;
     font-size:16px;
     line-height:24px
 }
 .btn.btn-large:active,.btn.btn-large:focus,.btn.btn-large:hover,.btn.btn-large:not(.disabled):active,.btn.btn-large:not(.disabled):focus,.btn.btn-large:not(.disabled):hover{
-    background:#00772e;
+    background:#008BDC;
     box-shadow:0 2px 4px rgba(0,0,0,.08)!important;
-    border:1px solid #00772e
+    border:1px solid #008BDC
 }
 .btn.btn-large[disabled]{
     cursor:not-allowed;
@@ -3950,9 +3948,9 @@
     padding:11px 16px
 }
 .btn.btn-semilarge{
-    background:#258a48;
+    background:#00A5EC;
     border-radius:3px;
-    border:1px solid #258a48;
+    border:1px solid #00A5EC;
     color:#fff;
     padding:11px 15px;
     font-size:14px;
@@ -4023,7 +4021,7 @@
     color:#1DC1F6
 }
 .btn.btn-flat.light:hover{
-    color:#258a48
+    color:#00A5EC
 }
 .btn.btn-add{
     padding:0;
@@ -4059,12 +4057,12 @@ a.left,a.right{
 a{
     font-weight:500;
     text-decoration:none;
-    color:#258a48;
+    color:#008BDC;
     cursor:pointer;
     line-height:1.14285714
 }
 a:focus,a:hover{
-    color:#258a48;
+    color:#006BC2;
     text-decoration:none;
     outline:0
 }
@@ -4074,10 +4072,10 @@ a.focus-visible{
     outline-offset:-2px
 }
 a:not([href]){
-    color:#258a48
+    color:#008BDC
 }
 a:not([href]):focus,a:not([href]):hover{
-    color:#258a48;
+    color:#006BC2;
     text-decoration:none;
     outline:0
 }
@@ -4321,7 +4319,7 @@ input{
     color:#8A8A8A
 }
 .form-control:focus,.form-control:hover{
-    border:1px solid #258a48
+    border:1px solid #00A5EC
 }
 @supports (font-variation-settings:normal){
     .form-control{
@@ -4330,7 +4328,7 @@ input{
 }
 .form-control:focus{
     box-shadow:none;
-    caret-color:#258a48
+    caret-color:#00A5EC
 }
 .form-control::placeholder{
     color:#8A8A8A
@@ -4393,20 +4391,20 @@ input{
     border-bottom:1px solid #DDD
 }
 .has_cross_and_button.is_focused .cross_btn_container,.has_cross_and_button:active .cross_btn_container,.has_cross_and_button:focus .cross_btn_container,.has_cross_and_button:hover .cross_btn_container{
-    border-top:1px solid #258a48;
-    border-bottom:1px solid #258a48
+    border-top:1px solid #00A5EC;
+    border-bottom:1px solid #00A5EC
 }
 .has_cross_and_button:hover .form-control{
-    border:1px solid #258a48;
+    border:1px solid #00A5EC;
     border-right:none
 }
 .has_cross_and_button:active .form-control,.has_cross_and_button:focus .form-control{
-    border:1px solid #258a48;
+    border:1px solid #00A5EC;
     border-right:none;
-    caret-color:#258a48
+    caret-color:#00A5EC
 }
 .has_cross_and_button.is_focused .form-control{
-    border:1px solid #258a48;
+    border:1px solid #00A5EC;
     border-right:none
 }
 .has_cross{
@@ -4431,8 +4429,8 @@ input{
     border:1px solid #DDD
 }
 .has_cross:active,.has_cross:focus{
-    border:1px solid #258a48;
-    caret-color:#258a48
+    border:1px solid #00A5EC;
+    caret-color:#00A5EC
 }
 .has_cross .cross_btn_container .cross_btn{
     height:100%;
@@ -4451,7 +4449,7 @@ input{
     color:#484848
 }
 .has_cross.is_focused{
-    border:1px solid #258a48
+    border:1px solid #00A5EC
 }
 .has_cross.disabled .cross_btn,.has_cross.disabled .cross_btn_container .cross_btn,.has_cross.readonly .cross_btn,.has_cross.readonly .cross_btn_container .cross_btn{
     background:#F8F8F8
@@ -4496,7 +4494,7 @@ input{
     border:1px solid #1DC1F6
 }
 .has_char_count.is_focused{
-    border:1px solid #258a48
+    border:1px solid #00A5EC
 }
 .has_char_count .form-control,.has_char_count .form-control:focus,.has_char_count .form-control:hover{
     border:none!important
@@ -4570,7 +4568,7 @@ input{
     box-shadow:none
 }
 .has-success .form-control:focus{
-    border:1px solid #258a48;
+    border:1px solid #00A5EC;
     box-shadow:none
 }
 textarea.form-control{
@@ -4664,9 +4662,9 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
     border:1px solid #1DC1F6
 }
 .items-inside:focus,.items-inside:focus-within{
-    border:1px solid #258a48;
+    border:1px solid #00A5EC;
     box-shadow:none;
-    caret-color:#258a48
+    caret-color:#00A5EC
 }
 .items-inside.disabled{
     background:#F8F8F8
@@ -4927,7 +4925,7 @@ input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-
     color:#484848
 }
 .popover.popover-custom.popover-dark .popover-body a{
-    color:#258a48
+    color:#00A5EC
 }
 .popover.popover-custom .popover-body{
     max-width:264px;
@@ -6397,7 +6395,7 @@ body .ui-tooltip{
 }
 .ui-datepicker .ui-datepicker-header .ui-datepicker-next:before{
     content:"\e90e";
-    color:#258a48
+    color:#00A5EC
 }
 .ui-datepicker .ui-datepicker-header .ui-datepicker-prev{
     background:0 0;
@@ -6406,7 +6404,7 @@ body .ui-tooltip{
 }
 .ui-datepicker .ui-datepicker-header .ui-datepicker-prev:before{
     content:"\e90d";
-    color:#258a48
+    color:#00A5EC
 }
 .ui-datepicker .ui-datepicker-header .ui-datepicker-next,.ui-datepicker .ui-datepicker-header .ui-datepicker-prev{
     width:24px!important;
@@ -6596,7 +6594,7 @@ body,html{
 }
 .notification.employer_campaign_ribbon{
     color:#fff;
-    background:linear-gradient(180deg,#258a48 0,#008BDC 170%);
+    background:linear-gradient(180deg,#00A5EC 0,#008BDC 170%);
     font-weight:600;
     z-index:1600
 }
@@ -6917,7 +6915,7 @@ ul.location_autocomplete_plugin li:last-child:after{
     }
 }
 #login-modal .modal-dialog .modal-content .modal-body .google_login #google-button-container{
-    background:#fff;
+    background:rgb(255, 255, 255);
     border-radius:3px;
     border:1px solid #DDD;
     display:flex;
@@ -7220,17 +7218,17 @@ ul.location_autocomplete_plugin li:last-child:after{
 }
 #content #content-inner{
     width:100%;
-    background-size:cover;
-    background-image:url('../../../images/registration/student/background-1920.png')
+    background-size:97%;
+    background-image:url('https://images.pexels.com/photos/257894/pexels-photo-257894.jpeg?cs=srgb&dl=pexels-pixabay-257894.jpg&fm=jpg')
 }
 @media (max-width:1919px){
     #content #content-inner{
-        background-image:url('../../../images/registration/student/background-1366.png')
+        background-image:url('https://images.pexels.com/photos/257894/pexels-photo-257894.jpeg?cs=srgb&dl=pexels-pixabay-257894.jpg&fm=jpg')
     }
 }
 @media (max-width:1365px){
     #content #content-inner{
-        background-image:url('../../../images/registration/student/background-1024.png')
+        background-image:url('https://images.pexels.com/photos/257894/pexels-photo-257894.jpeg?cs=srgb&dl=pexels-pixabay-257894.jpg&fm=jpg')
     }
 }
 #content #content-inner .max-width-container{
@@ -7304,7 +7302,8 @@ ul.location_autocomplete_plugin li:last-child:after{
     padding:24px;
     background:#fff;
     box-shadow:0 8px 16px rgba(0,0,0,.08);
-    border-radius:6px
+    border-radius:6px;
+    margin-bottom: 18px;
 }
 #registration-container-right .google_login{
     text-decoration:none;
@@ -7319,14 +7318,15 @@ ul.location_autocomplete_plugin li:last-child:after{
     }
 }
 #registration-container-right .google_login #google-button-container{
-    background:#fff;
+    background:#f9fbfc;
     border-radius:3px;
     border:1px solid #EEE;
     display:flex;
     flex-direction:row;
     justify-content:center;
     padding:11px 10px;
-    margin-bottom:12px
+    margin-bottom:12px;
+    
 }
 #registration-container-right .google_login #google-button-container .google_image_container{
     height:16px
@@ -7411,7 +7411,8 @@ ul.location_autocomplete_plugin li:last-child:after{
     color:#484848
 }
 #registration-container-right #form-container #label_toc a{
-    font-size:12px
+    font-size:12px;
+    color: #65eb43;
 }
 #registration-container-right #form-container #login-link-container{
     font-family:Inter,sans-serif;
@@ -7427,7 +7428,7 @@ ul.location_autocomplete_plugin li:last-child:after{
 #registration-container-right #form-container #login-link-container span{
     border:none;
     background:0 0;
-    color:#258a48;
+    color:#65eb43;
     cursor:pointer
 }
 #registration-container-right #form-container #login-link{

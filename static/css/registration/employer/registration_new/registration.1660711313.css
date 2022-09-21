@@ -3,6 +3,7 @@
     line-height:1.42857143;
     font-weight:600
 }
+
 .heading_6_1,.heading_6_2,.heading_6_3,.heading_6_4,.heading_6_5,.heading_6_6{
     font-weight:600
 }
@@ -1432,7 +1433,7 @@
     }
 }
 #header .max-width-container .navbar .brand_container .navbar-brand img{
-    width:112px
+    width:200px
 }
 #header .max-width-container .navbar .collapse{
     height:100%;
@@ -3033,14 +3034,14 @@
     opacity:1
 }
 .btn.btn-primary{
-    background:#00A5EC;
+    background:#2a9210;
     border-radius:3px;
-    border:1px solid #00A5EC
+    border:1px solid #9cfc7f
 }
 .btn.btn-primary:active,.btn.btn-primary:focus,.btn.btn-primary:hover,.btn.btn-primary:not(.disabled):active,.btn.btn-primary:not(.disabled):focus,.btn.btn-primary:not(.disabled):hover{
-    background:#008BDC;
+    background:#8bf545;
     box-shadow:0 2px 4px rgba(0,0,0,.08)!important;
-    border:1px solid #008BDC
+    border:1px solid #8bf545;
 }
 .btn.btn-primary[disabled]{
     cursor:not-allowed;
@@ -3108,18 +3109,18 @@
     border:1px solid #EEE
 }
 .btn.btn-secondary{
-    background:#fff;
-    border:1px solid #008BDC;
+    background:#2a9210;
+    border:1px solid #08af08;
     box-sizing:border-box;
     border-radius:3px;
-    color:#008BDC
+    color:#fbfdff;
 }
 .btn.btn-secondary:active,.btn.btn-secondary:focus,.btn.btn-secondary:hover,.btn.btn-secondary:not(.disabled):active,.btn.btn-secondary:not(.disabled):focus,.btn.btn-secondary:not(.disabled):hover{
-    background:#fff;
-    border:1px solid #006BC2;
+    background:#8bf545;
+    border:1px solid #8bf545;;
     box-shadow:0 2px 4px rgba(0,0,0,.08)!important;
     border-radius:3px;
-    color:#006BC2
+    color:#fbfdff
 }
 .btn.btn-secondary[disabled]{
     cursor:not-allowed;
@@ -3184,7 +3185,7 @@ a.left,a.right{
 a{
     font-weight:500;
     text-decoration:none;
-    color:#008BDC;
+    color:#65eb43;
     cursor:pointer;
     line-height:1.14285714
 }
@@ -5754,7 +5755,7 @@ body{
     padding-bottom:100vh
 }
 .max-width-container{
-    max-width:1224px
+    max-width:1600px;
 }
 .container-fluid{
     padding-left:16px;
@@ -7510,18 +7511,18 @@ ul.location_autocomplete_plugin li:last-child:after{
     position:absolute;
     z-index:-1;
     background-repeat:no-repeat;
-    background-image:url('../../../../images/registration/employer/registration_new/internship/banner/r1920-new.png');
+    background-image:url('https://images.pexels.com/photos/257894/pexels-photo-257894.jpeg?cs=srgb&dl=pexels-pixabay-257894.jpg&fm=jpg');
     min-height:664px
 }
 @media (max-width:1366px){
     #internship_form .banner.banner_internship{
-        background-image:url('../../../../images/registration/employer/registration_new/internship/banner/r1366-new.png');
+        background-image:url('https://images.pexels.com/photos/257894/pexels-photo-257894.jpeg?cs=srgb&dl=pexels-pixabay-257894.jpg&fm=jpg');
         min-height:664px
     }
 }
 @media (max-width:1255px){
     #internship_form .banner.banner_internship{
-        background-image:url('../../../../images/registration/employer/registration_new/internship/banner/r1255-new.png');
+        background-image:url('https://images.pexels.com/photos/257894/pexels-photo-257894.jpeg?cs=srgb&dl=pexels-pixabay-257894.jpg&fm=jpg');
         min-height:664px
     }
 }
@@ -8072,7 +8073,7 @@ ul.location_autocomplete_plugin li:last-child:after{
     }
 }
 #testimonials_internships #testimonials_carousel_internships .carousel_arrow_container{
-    background-color:#00A5EC;
+    background-color:#2a9210;
     color:#fff;
     box-shadow:0 2px 4px rgba(0,0,0,.08);
     width:32px;
@@ -8337,7 +8338,7 @@ ul.location_autocomplete_plugin li:last-child:after{
     color:#0E567B
 }
 #know_jobs .know_jobs_banner .jb_tagline span{
-    color:#ff7a00
+    color:#2a9210;
 }
 @media (max-width:991px){
     #know_jobs .know_jobs_banner .jb_tagline{

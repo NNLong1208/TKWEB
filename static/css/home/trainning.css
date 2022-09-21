@@ -2623,9 +2623,9 @@ h6 {
 }
 
 .btn.btn-primary {
-    background: #00a5ec;
+    background: #258a48;
     border-radius: 3px;
-    border: 1px solid #00a5ec
+    border: 1px solid #258a48
 }
 
 .btn.btn-primary:active,
@@ -2634,10 +2634,10 @@ h6 {
 .btn.btn-primary:not(.disabled):active,
 .btn.btn-primary:not(.disabled):focus,
 .btn.btn-primary:not(.disabled):hover {
-    background: #008bdc;
+    background: #258a48;
     -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .08) !important;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .08) !important;
-    border: 1px solid #008bdc
+    border: 1px solid #258a48
 }
 
 .btn.btn-primary[disabled] {
@@ -2720,11 +2720,11 @@ h6 {
 
 .btn.btn-secondary {
     background: #fff;
-    border: 1px solid #008bdc;
+    border: 1px solid #258a48;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border-radius: 3px;
-    color: #008bdc
+    color: #258a48
 }
 
 .btn.btn-secondary:active,
@@ -2734,11 +2734,11 @@ h6 {
 .btn.btn-secondary:not(.disabled):focus,
 .btn.btn-secondary:not(.disabled):hover {
     background: #fff;
-    border: 1px solid #006bc2;
+    border: 1px solid #258a48;
     -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .08) !important;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .08) !important;
     border-radius: 3px;
-    color: #006bc2
+    color: #258a48
 }
 
 .btn.btn-secondary[disabled] {
@@ -2785,7 +2785,7 @@ h6 {
 
 .btn.btn-flat {
     padding: 8px;
-    color: #008bdc;
+    color: #258a48;
     border-radius: 3px;
     background: 0 0;
     min-width: 64px;
@@ -2799,7 +2799,7 @@ h6 {
 .btn.btn-flat:not(.disabled):focus,
 .btn.btn-flat:not(.disabled):hover {
     background: #eafcff;
-    color: #006bc2;
+    color: #258a48;
     -webkit-box-shadow: none;
     box-shadow: none
 }
@@ -2817,7 +2817,7 @@ h6 {
     width: 100%;
     padding-top: 19px;
     padding-bottom: 19px;
-    color: #008bdc;
+    color: #258a48;
     background-color: #eafcff;
     border: 1px dashed #1dc1f6;
     border-radius: 3px
@@ -2877,7 +2877,7 @@ a .is-icon-chevron-right {
 .use-referral-code {
     font-size: 24px;
     line-height: 32px;
-    color: #008bdc;
+    color: #258a48;
     cursor: pointer;
     max-width: -webkit-fit-content;
     max-width: -moz-fit-content;
@@ -2905,12 +2905,12 @@ a {
 }
 
 a {
-    color: #008bdc
+    color: #258a48
 }
 
 a:focus,
 a:hover {
-    color: #006bc2;
+    color: #258a48;
     text-decoration: none;
     outline: 0
 }
@@ -2922,12 +2922,12 @@ a.focus-visible {
 }
 
 a:not([href]) {
-    color: #008bdc
+    color: #258a48
 }
 
 a:not([href]):focus,
 a:not([href]):hover {
-    color: #006bc2;
+    color: #258a48;
     text-decoration: none;
     outline: 0
 }
@@ -2944,12 +2944,12 @@ a>[class^=is-icon-] {
 }
 
 .link {
-    color: #008bdc
+    color: #258a48
 }
 
 .link:focus,
 .link:hover {
-    color: #006bc2;
+    color: #258a48;
     text-decoration: none;
     outline: 0
 }
@@ -2961,12 +2961,12 @@ a>[class^=is-icon-] {
 }
 
 .link:not([href]) {
-    color: #008bdc
+    color: #258a48
 }
 
 .link:not([href]):focus,
 .link:not([href]):hover {
-    color: #006bc2;
+    color: #258a48;
     text-decoration: none;
     outline: 0
 }
@@ -3031,18 +3031,18 @@ button.focus-visible {
 }
 
 .nav.is-nav-tabs .nav-link:hover {
-    color: #00a5ec
+    color: #258a48
 }
 
 .nav.is-nav-tabs .nav-link.active {
     font-weight: 500;
-    color: #008bdc;
-    border-bottom: 2px solid #008bdc;
+    color: #258a48;
+    border-bottom: 2px solid #258a48;
     padding-bottom: 8px
 }
 
 .nav.is-nav-tabs .nav-link.active .label {
-    background: #008bdc;
+    background: #258a48;
     color: #fff
 }
 
@@ -3064,7 +3064,7 @@ button.focus-visible {
 }
 
 .nav.is-nav-tabs.horizontal .nav-link.active {
-    border-bottom: 2px solid #008bdc
+    border-bottom: 2px solid #258a48
 }
 
 .nav.is-nav-tabs.vertical {
@@ -3084,7 +3084,7 @@ button.focus-visible {
 
 .nav.is-nav-tabs.vertical .nav-link.active {
     border-left: none;
-    border-left: 2px solid #008bdc
+    border-left: 2px solid #258a48
 }
 
 .nav.is-nav-tabs.vertical_reverse {
@@ -3103,7 +3103,7 @@ button.focus-visible {
 }
 
 .nav.is-nav-tabs.vertical_reverse .nav-link.active {
-    border-right: 2px solid #008bdc
+    border-right: 2px solid #258a48
 }
 
 .nav.is-nav-tabs.text-size-bottom-border {
@@ -3131,17 +3131,17 @@ button.focus-visible {
 }
 
 .nav.is-nav-tabs.text-size-bottom-border .nav-link:hover {
-    color: #00a5ec
+    color: #258a48
 }
 
 .nav.is-nav-tabs.text-size-bottom-border .nav-link.active {
     font-weight: 500;
-    color: #008bdc;
-    border-bottom: 2px solid #008bdc
+    color: #258a48;
+    border-bottom: 2px solid #258a48
 }
 
 .nav.is-nav-tabs.text-size-bottom-border .nav-link.active .label {
-    background: #008bdc;
+    background: #258a48;
     color: #fff
 }
 
@@ -3306,7 +3306,7 @@ button.focus-visible {
     padding: 15px;
     background: #eafcff;
     border: 1px solid #8feafe;
-    color: #006bc2
+    color: #258a48
 }
 
 .alert.alert-info>i:before {
@@ -3673,7 +3673,7 @@ button.focus-visible {
 
 .tag.challenge {
     background: #eafcff;
-    color: #006bc2;
+    color: #258a48;
     padding-left: calc(6px - 1px);
     padding-right: calc(6px - 1px);
     padding-top: calc(2px - 1px);
@@ -3775,7 +3775,7 @@ button.focus-visible {
 }
 
 .indicators-container .active-indicator {
-    background-color: #008bdc;
+    background-color: #258a48;
     position: absolute;
     left: 0;
     top: 0;
@@ -3785,7 +3785,12 @@ button.focus-visible {
     margin-left: 4px;
     margin-right: 4px
 }
-
+.navigation-container{
+    margin-bottom: 50px;
+}
+.btn .btn-secondary{
+    background-color: #258a48;
+}
 .navigation-container .navigation .indicators-container,
 .radio {
     position: relative
@@ -3807,7 +3812,7 @@ button.focus-visible {
 .indicators-container .indicator.bordered {
     height: 11px;
     width: 11px;
-    border: 1px solid #008bdc;
+    border: 1px solid #258a48;
     background-color: #fff
 }
 
@@ -3821,11 +3826,11 @@ button.focus-visible {
 }
 
 .directional-arrow {
-    color: #008bdc
+    color: #258a48
 }
 
 .directional-arrow-lg {
-    color: #008bdc;
+    color: #258a48;
     font-size: 48px
 }
 
@@ -3846,7 +3851,7 @@ button.focus-visible {
     align-items: center;
     width: 40px;
     height: 40px;
-    background-color: #00a5ec;
+    background-color: #258a48;
     cursor: pointer;
     -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .08) !important;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .08) !important;
@@ -3898,7 +3903,7 @@ button.focus-visible {
     align-items: center;
     width: 40px;
     height: 40px;
-    background-color: #00a5ec;
+    background-color: #258a48;
     cursor: pointer;
     -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, .08) !important;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .08) !important;
@@ -3953,7 +3958,7 @@ button.focus-visible {
 }
 
 .collapse-item .collapse-title i {
-    color: #008bdc
+    color: #258a48
 }
 
 .collapse-item .collapse-title .is-icon-minus {
@@ -4162,7 +4167,7 @@ button.like-anchor>[class^=is-icon-] {
     content: '';
     opacity: 0;
     border-radius: 50%;
-    background-color: #006bc2;
+    background-color: #258a48;
     background-repeat: no-repeat;
     background-position: center;
     height: 8px;
@@ -4173,7 +4178,7 @@ button.like-anchor>[class^=is-icon-] {
 }
 
 .radio input[type=radio]:checked+label::before {
-    border-color: #006bc2
+    border-color: #258a48
 }
 
 .radio input[type=radio]:checked+label::after {
@@ -4254,8 +4259,8 @@ button.like-anchor>[class^=is-icon-] {
 }
 
 .checkbox input[type=checkbox]:checked+label::before {
-    border-color: #006bc2;
-    background-color: #006bc2
+    border-color: #258a48;
+    background-color: #258a48
 }
 
 .checkbox input[type=checkbox]:checked+label::after {
@@ -4417,7 +4422,7 @@ input {
 
 .form-control:focus,
 .form-control:hover {
-    border: 1px solid #00a5ec
+    border: 1px solid #258a48
 }
 
 @supports (font-variation-settings:normal) {
@@ -4431,7 +4436,7 @@ input {
 .form-control:focus {
     -webkit-box-shadow: none;
     box-shadow: none;
-    caret-color: #00a5ec
+    caret-color: #258a48
 }
 
 .form-control::-webkit-input-placeholder {
@@ -4536,24 +4541,24 @@ input {
 .has_cross_and_button:active .cross_btn_container,
 .has_cross_and_button:focus .cross_btn_container,
 .has_cross_and_button:hover .cross_btn_container {
-    border-top: 1px solid #00a5ec;
-    border-bottom: 1px solid #00a5ec
+    border-top: 1px solid #258a48;
+    border-bottom: 1px solid #258a48
 }
 
 .has_cross_and_button:hover .form-control {
-    border: 1px solid #00a5ec;
+    border: 1px solid #258a48;
     border-right: none
 }
 
 .has_cross_and_button:active .form-control,
 .has_cross_and_button:focus .form-control {
-    border: 1px solid #00a5ec;
+    border: 1px solid #258a48;
     border-right: none;
-    caret-color: #00a5ec
+    caret-color: #258a48
 }
 
 .has_cross_and_button.is_focused .form-control {
-    border: 1px solid #00a5ec;
+    border: 1px solid #258a48;
     border-right: none
 }
 
@@ -4590,8 +4595,8 @@ input {
 
 .has_cross:active,
 .has_cross:focus {
-    border: 1px solid #00a5ec;
-    caret-color: #00a5ec
+    border: 1px solid #258a48;
+    caret-color: #258a48
 }
 
 .has_cross .cross_btn_container .cross_btn {
@@ -4607,7 +4612,7 @@ input {
 }
 
 .has_cross.is_focused {
-    border: 1px solid #00a5ec
+    border: 1px solid #258a48
 }
 
 .has_cross.disabled .cross_btn,
@@ -4662,7 +4667,7 @@ input {
 
 .has_char_count.is_focused,
 .has_char_count:hover {
-    border: 1px solid #00a5ec
+    border: 1px solid #258a48
 }
 
 .has_char_count .form-control,
@@ -4768,7 +4773,7 @@ input {
 }
 
 .has-success .form-control:focus {
-    border: 1px solid #00a5ec;
+    border: 1px solid #258a48;
     -webkit-box-shadow: none;
     box-shadow: none
 }
@@ -4893,10 +4898,10 @@ input[type=number]::-webkit-outer-spin-button {
 
 .items-inside:focus,
 .items-inside:focus-within {
-    border: 1px solid #00a5ec;
+    border: 1px solid #258a48;
     -webkit-box-shadow: none;
     box-shadow: none;
-    caret-color: #00a5ec
+    caret-color: #258a48
 }
 
 .items-inside.disabled {
@@ -4933,7 +4938,7 @@ input[type=number]::-webkit-outer-spin-button {
     margin-top: 4px;
     margin-bottom: 4px;
     color: #fff;
-    background: #008bdc;
+    background: #258a48;
     line-height: 1.14285714;
     border-radius: 3px;
     padding: 4px 8px;
@@ -4981,7 +4986,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .custom_datepicker.datepicker_wrapper:hover {
-    border: 1px solid #00a5ec
+    border: 1px solid #258a48
 }
 
 .custom_datepicker.datepicker_wrapper .default {
@@ -4992,7 +4997,7 @@ input[type=number]::-webkit-outer-spin-button {
 .custom_datepicker.datepicker_wrapper .value {
     display: none;
     color: #fff;
-    background: #008bdc;
+    background: #258a48;
     height: 24px;
     line-height: 16px;
     border-radius: 3px;
@@ -5070,7 +5075,7 @@ input[type=number]::-webkit-outer-spin-button {
 .switch_container input[type=checkbox]:checked+label::after {
     -webkit-transform: translateX(26px);
     transform: translateX(26px);
-    background: #006bc2;
+    background: #258a48;
     left: -11px
 }
 
@@ -5791,7 +5796,7 @@ pre[class*=language-] {
     background-color: #eafcff !important;
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #eafcff), color-stop(90%, #eafcff)) !important;
     background-image: linear-gradient(#eafcff 20%, #eafcff 90%) !important;
-    color: #008bdc
+    color: #258a48
 }
 
 .chosen-container.chosen-disabled {
@@ -5828,11 +5833,11 @@ pre[class*=language-] {
 .chosen-container-single .chosen-single:active,
 .chosen-container-single .chosen-single:focus {
     outline: 0;
-    border: 1px solid #00a5ec !important;
+    border: 1px solid #258a48 !important;
     webkit-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    caret-color: #00a5ec
+    caret-color: #258a48
 }
 
 .chosen-container-single .chosen-single div {
@@ -5870,7 +5875,7 @@ pre[class*=language-] {
 
 .chosen-container-single.chosen-with-drop .chosen-single {
     outline: 0;
-    border: 1px solid #00a5ec !important;
+    border: 1px solid #258a48 !important;
     webkit-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none
@@ -5923,7 +5928,7 @@ pre[class*=language-] {
 }
 
 .chosen-container-multi .chosen-choices li.search-choice {
-    background: #008bdc;
+    background: #258a48;
     color: #fff;
     font-size: 14px;
     line-height: 1.1428571;
@@ -5971,8 +5976,8 @@ pre[class*=language-] {
     box-shadow: none;
     -webkit-box-shadow: none;
     outline: 0;
-    border: 1px solid #00a5ec !important;
-    caret-color: #00a5ec
+    border: 1px solid #258a48 !important;
+    caret-color: #258a48
 }
 
 .values_outside .chosen-choices {
@@ -6004,7 +6009,7 @@ pre[class*=language-] {
     -webkit-box-shadow: none;
     outline: 0;
     border: 1px solid #ddd !important;
-    caret-color: #00a5ec
+    caret-color: #258a48
 }
 
 .values_outside .chosen-choices li.search-field input[type=text]:hover {
@@ -6013,11 +6018,11 @@ pre[class*=language-] {
 
 .values_outside .chosen-choices li.search-field input[type=text]:focus {
     outline: 0;
-    border: 1px solid #00a5ec !important;
+    border: 1px solid #258a48 !important;
     webkit-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    caret-color: #00a5ec
+    caret-color: #258a48
 }
 
 .chzn-container {
@@ -6048,7 +6053,7 @@ pre[class*=language-] {
     background-color: #eafcff !important;
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(20%, #eafcff), color-stop(90%, #eafcff)) !important;
     background-image: linear-gradient(#eafcff 20%, #eafcff 90%) !important;
-    color: #008bdc
+    color: #258a48
 }
 
 .chzn-container-multi .chzn-choices {
@@ -6071,15 +6076,15 @@ pre[class*=language-] {
 
 .chzn-container-multi .chzn-choices:focus {
     outline: 0;
-    border: 1px solid #00a5ec !important;
+    border: 1px solid #258a48 !important;
     webkit-box-shadow: none;
     -webkit-box-shadow: none;
     box-shadow: none;
-    caret-color: #00a5ec
+    caret-color: #258a48
 }
 
 .chzn-container-multi .chzn-choices li.search-choice {
-    background: #008bdc;
+    background: #258a48;
     color: #fff;
     border-radius: 3px;
     padding: 4px 20px 4px 8px;
@@ -6118,8 +6123,8 @@ pre[class*=language-] {
     box-shadow: none;
     -webkit-box-shadow: none;
     outline: 0;
-    border: 1px solid #00a5ec !important;
-    caret-color: #00a5ec
+    border: 1px solid #258a48 !important;
+    caret-color: #258a48
 }
 
 .has-error .values_outside .chosen-choices li.search-field input[type=text] {
@@ -7145,7 +7150,7 @@ body .ui-tooltip {
 .ui-widget-header .ui-state-focus,
 .ui-widget-header .ui-state-hover {
     border: 1px solid #999;
-    background: #00a5ec;
+    background: #258a48;
     font-weight: 400;
     color: #fff
 }
@@ -8115,13 +8120,13 @@ body .ui-tooltip {
 .ui-datepicker .ui-datepicker-header .ui-datepicker-next:before {
     content: '\e92a';
     font-size: 24px;
-    color: #00a5ec
+    color: #258a48
 }
 
 .ui-datepicker .ui-datepicker-header .ui-datepicker-prev:before {
     content: '\e927';
     font-size: 24px;
-    color: #00a5ec
+    color: #258a48
 }
 
 .ui-datepicker .ui-datepicker-header .ui-datepicker-next span,
@@ -8148,13 +8153,13 @@ body .ui-tooltip {
 .ui-datepicker .ui-widget-header .ui-state-hover {
     border: none;
     background: #eafcff;
-    color: #006bc2;
+    color: #258a48;
     border-radius: 3px
 }
 
 .ui-datepicker .ui-state-active {
     color: #fff;
-    background: #006bc2;
+    background: #258a48;
     -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, .12);
     box-shadow: 0 1px 2px rgba(0, 0, 0, .12);
     border-radius: 3px
@@ -8434,7 +8439,7 @@ p {
     display: none;
     text-align: center;
     background-color: #bdf3ff;
-    color: #006bc2;
+    color: #258a48;
     padding: calc(8px - 0px)
 }
 
@@ -8465,7 +8470,7 @@ p {
     top: 12px;
     right: 16px;
     cursor: pointer;
-    color: #006bc2
+    color: #258a48
 }
 
 .notification.error-notification {
@@ -8547,11 +8552,11 @@ p {
 .trainings-toast.general_toast .toast-body-container .toast-body {
     background: #eafcff;
     border: 1px solid #8feafe;
-    color: #006bc2
+    color: #258a48
 }
 
 .trainings-toast.general_toast .toast-body-container .toast-body .btn {
-    background: #00a5ec;
+    background: #258a48;
     color: #fff
 }
 
@@ -8583,7 +8588,7 @@ p {
 }
 
 #nprogress .bar {
-    background: #00a5ec;
+    background: #258a48;
     position: fixed;
     z-index: 15000;
     top: 0;
@@ -8698,7 +8703,7 @@ body {
 button.like-anchor {
     font-weight: 500;
     text-decoration: none;
-    color: #008bdc;
+    color: #258a48;
     cursor: pointer;
     line-height: 1.14285714;
     -webkit-appearance: none;
@@ -8716,7 +8721,7 @@ button.like-anchor {
 
 button.like-anchor:focus,
 button.like-anchor:hover {
-    color: #006bc2;
+    color: #258a48;
     text-decoration: none;
     outline: 0
 }
@@ -8728,12 +8733,12 @@ button.like-anchor.focus-visible {
 }
 
 button.like-anchor:not([href]) {
-    color: #008bdc
+    color: #258a48
 }
 
 button.like-anchor:not([href]):focus,
 button.like-anchor:not([href]):hover {
-    color: #006bc2;
+    color: #258a48;
     text-decoration: none;
     outline: 0
 }
@@ -8868,7 +8873,7 @@ button.like-anchor .is-icon-chevron-right {
 }
 
 .btn-flat.light:hover {
-    color: #00a5ec
+    color: #258a48
 }
 
 .alert.normal-text {
@@ -8900,7 +8905,7 @@ button.like-anchor .is-icon-chevron-right {
 
 #header .navbar a:focus,
 #header .navbar a:hover {
-    color: #008bdc
+    color: #258a48
 }
 
 #header .navbar a:not(:hover) {
@@ -8920,15 +8925,15 @@ button.like-anchor .is-icon-chevron-right {
 }
 
 #header .navbar .navbar-container .navbar-brand {
-    height: 72px;
+    height: 100%;
     margin: 0;
     padding-top: calc(16px - 0px);
     padding-bottom: calc(24px - 0px)
 }
 
 #header .navbar .navbar-container .navbar-brand #logo_image {
-    height: 32px;
-    width: 190px
+    width: 210px;
+    margin-top: 10px;
 }
 
 #header .navbar .navbar-container .navbar-header .navbar-toggler {
@@ -9031,7 +9036,7 @@ button.like-anchor .is-icon-chevron-right {
 }
 
 #header .navbar .navbar-container #dropdown .navbar-right #user_menu li a:hover {
-    color: #008bdc
+    color: #258a48
 }
 
 #header .navbar .navbar-container #dropdown .navbar-right #user_menu #username_container {
@@ -9116,17 +9121,17 @@ button.like-anchor .is-icon-chevron-right {
 }
 
 #header .navbar .navbar-container #dropdown .navbar-right #login-list-item .btn-secondary {
-    color: #008bdc;
-    border-color: #008bdc
+    color: #258a48;
+    border-color: #258a48
 }
 
 #header .navbar .navbar-container #dropdown .navbar-right #login-list-item .btn-secondary:hover {
-    color: #006bc2;
-    border-color: #006bc2
+    color: #258a48;
+    border-color: #258a48
 }
 
 #header .navbar .navbar-container #dropdown .navbar-right .dropdown #scroll_to_know_more {
-    background-color: #00a5ec;
+    background-color: #258a48;
     display: -webkit-inline-box;
     display: -ms-inline-flexbox;
     display: inline-flex;
@@ -9204,16 +9209,16 @@ button.like-anchor .is-icon-chevron-right {
 }
 
 #header .navbar .navbar-container #dropdown .navbar-right .dropdown.profile-hover.underlined {
-    border-bottom: 2px solid #00a5ec
+    border-bottom: 2px solid #258a48
 }
 
 #header .navbar .navbar-container #dropdown .navbar-right .dropdown.profile-hover.underlined .is-icon-arrow-drop-up::before,
 #header .navbar .navbar-container #dropdown .navbar-right .dropdown.profile-hover.underlined .no-fill-initial {
-    color: #008bdc
+    color: #258a48
 }
 
 #header .navbar .navbar-container #dropdown .navbar-right .dropdown.profile-hover.underlined .no-fill-initial {
-    border-color: #008bdc
+    border-color: #258a48
 }
 
 #header .navbar .navbar-container #dropdown .navbar-right .dropdown.profile-hover .profile-dropdown {
@@ -9236,7 +9241,7 @@ button.like-anchor .is-icon-chevron-right {
 }
 
 #header .navbar .navbar-container #dropdown .navbar-right .dropdown.dropdown-hover.underlined {
-    border-bottom: 3px solid #00a5ec
+    border-bottom: 3px solid #258a48
 }
 
 #header .navbar .navbar-container #dropdown .navbar-right .dropdown.dropdown-hover.underlined #scroll_to_know_more,
@@ -9273,7 +9278,7 @@ button.like-anchor .is-icon-chevron-right {
 
 #header .navbar .navbar-container #dropdown .navbar-right .dropdown .dropdown-menu .dropdown-menu>li:focus:not(#username_container) a,
 #header .navbar .navbar-container #dropdown .navbar-right .dropdown .dropdown-menu.dropdown-menu>li:hover:not(#username_container) a {
-    color: #008bdc !important;
+    color: #258a48 !important;
     text-decoration: none !important
 }
 
@@ -9357,12 +9362,12 @@ button.like-anchor .is-icon-chevron-right {
 
 #header .navbar .navbar-container #dropdown .navbar-right .dropdown .dropdown-menu#trainings-dropdown .category-list .category-selector.active-category {
     background: #eafcff;
-    color: #006bc2;
+    color: #258a48;
     border-radius: 0 24px 25px 0
 }
 
 #header .navbar .navbar-container #dropdown .navbar-right .dropdown .dropdown-menu#trainings-dropdown .category-list .category-selector.active-category .arrow-icon .is-icon-chevron-right-s::before {
-    color: #006bc2;
+    color: #258a48;
     margin-left: 4px;
     font-size: 16px
 }
@@ -9407,7 +9412,7 @@ button.like-anchor .is-icon-chevron-right {
 }
 
 #header .navbar .navbar-container #dropdown .navbar-right .dropdown .dropdown-menu#trainings-dropdown .course-list-container section .course a:hover {
-    color: #008bdc
+    color: #258a48
 }
 
 #header .navbar .navbar-container #dropdown .navbar-right .dropdown .dropdown-menu#trainings-dropdown .course-list-container section::-webkit-scrollbar {
@@ -9483,7 +9488,7 @@ button.like-anchor .is-icon-chevron-right {
 }
 
 #header .navbar .navbar-container #dropdown .navbar-right .dropdown .dropdown-menu .dropdown-inner .inner-dropdown .dropdown-menu-part li a:hover {
-    color: #008bdc
+    color: #258a48
 }
 
 #header .navbar .search-bar-trigger.desktop {
@@ -9533,7 +9538,7 @@ button.like-anchor .is-icon-chevron-right {
     position: absolute;
     top: -1px;
     right: -1px;
-    background: #00a5ec;
+    background: #258a48;
     border-radius: 0 3px 3px 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -12834,7 +12839,7 @@ button.like-anchor .is-icon-chevron-right {
 
 .react-custom-select .chosen-drop .chosen-results .select {
     background-color: #eafcff !important;
-    color: #008bdc !important
+    color: #258a48 !important
 }
 
 .react-custom-select .chosen-drop .chosen-results .limited-seats-tag {
@@ -13169,8 +13174,9 @@ button.like-anchor .is-icon-chevron-right {
 }
 
 #content #courses-container .category-container .custom-carousel .slider a .course-card .course-image img {
-    width: 258px;
-    height: 106px
+    width: 180px;
+    height: 106px;
+    margin-left: 40px;
 }
 
 #content #courses-container .category-container .custom-carousel .slider a .course-card .course-block {
@@ -13226,7 +13232,7 @@ button.like-anchor .is-icon-chevron-right {
     font-weight: 600;
     font-size: 14px;
     line-height: 16px;
-    color: #008bdc;
+    color: #258a48;
     margin-left: 23px
 }
 
@@ -13244,7 +13250,7 @@ button.like-anchor .is-icon-chevron-right {
 }
 
 #content #courses-container .category-container .custom-carousel .slider a .course-card .course-block .course-block-footer-treatment .know-more-button #know-more-box:hover {
-    color: #006bc2
+    color: #258a48
 }
 
 #content #courses-container .category-container .custom-carousel .slider a .course-card .course-block .course-caption {
@@ -13574,7 +13580,7 @@ button.like-anchor .is-icon-chevron-right {
     font-size: 14px;
     width: 109px;
     height: 40px;
-    background-color: #00a5ec;
+    background-color: #258a48;
     border-radius: 3px;
     color: #fff;
     text-align: center;
@@ -13623,7 +13629,7 @@ button.like-anchor .is-icon-chevron-right {
 }
 
 #content .navigation-container .navigation .control {
-    background-color: #00a5ec;
+    background-color: #258a48;
     height: 32px;
     width: 32px;
     border-radius: 50%;
@@ -13656,7 +13662,7 @@ button.like-anchor .is-icon-chevron-right {
 }
 
 #content .navigation-container .navigation .indicator.active {
-    background-color: #008bdc
+    background-color: #258a48
 }
 
 @media (max-width:575.98px) {
@@ -15137,7 +15143,7 @@ button.like-anchor .is-icon-chevron-right {
     margin-right: auto;
     padding-left: 0;
     padding-right: 0;
-    color: #006bc2
+    color: #258a48
 }
 
 @media (max-width:1255.98px) {
@@ -15300,7 +15306,7 @@ button.like-anchor .is-icon-chevron-right {
     font-size: 16px;
     line-height: 20px;
     font-weight: 600;
-    border: 1px dashed #006bc2;
+    border: 1px dashed #258a48;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     border-radius: 1px;
@@ -15357,7 +15363,7 @@ button.like-anchor .is-icon-chevron-right {
 }
 
 #content #banner-content #banner-container.campaign-banner.republic_day-campaign-banner .campaign-banner-content .timer-container .desktop-timer .timer-image {
-    fill: #006bc2
+    fill: #258a48
 }
 
 @media (max-width:767.98px) {
@@ -16218,7 +16224,7 @@ button.like-anchor .is-icon-chevron-right {
 
 #content #banner-content #banner-container.campaign-banner.college_specific-campaign-banner .campaign-banner-content .headline b,
 #content #banner-content #banner-container.campaign-banner.college_specific-final-hour-campaign-banner .campaign-banner-content .headline b {
-    color: #008bdc
+    color: #258a48
 }
 
 #content #banner-content #banner-container.campaign-banner.college_specific-campaign-banner .campaign-banner-content .discount-message,
@@ -16868,7 +16874,7 @@ button.like-anchor .is-icon-chevron-right {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    color: #006bc2;
+    color: #258a48;
     width: 355px;
     height: 42px
 }
@@ -16910,7 +16916,7 @@ button.like-anchor .is-icon-chevron-right {
 }
 
 #content #banner-content #banner-container.campaign-banner.training_certificate-final-hour-campaign-banner .campaign-banner-content .campaign-banner-left-content .timer-container .desktop-timer .timer-image {
-    fill: #006bc2
+    fill: #258a48
 }
 
 #content #banner-content #banner-container.campaign-banner.harry_potter-campaign-banner .campaign-banner-content .campaign-banner-left-content .timer-container .desktop-timer .timer-image,
@@ -24314,7 +24320,7 @@ button.like-anchor .is-icon-chevron-right {
 
 #content #banner-content #banner-container.campaign-banner.independence_day-campaign-banner .campaign-banner-content .campaign-banner-left-content .tagline .sub-tagline,
 #content #banner-content #banner-container.campaign-banner.independence_day-final-hour-campaign-banner .campaign-banner-content .campaign-banner-left-content .tagline .sub-tagline {
-    color: #008bdc;
+    color: #258a48;
     font-weight: 700;
     line-height: 24px
 }
@@ -33218,7 +33224,7 @@ button.like-anchor .is-icon-chevron-right {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
-    color: #006bc2;
+    color: #258a48;
     width: 355px;
     height: 42px
 }
@@ -33226,7 +33232,9 @@ button.like-anchor .is-icon-chevron-right {
 #content #sale-banner-container.Summer_Training_Certificate_Sale-banner-2 .sale-banner-content .sale-banner-left-content .timer-container .timer-image {
     margin-left: 8px
 }
-
+#banners_container{
+    margin-top: 50px;
+}
 @media (max-width:767.98px) {
     #content #sale-banner-container.Summer_Training_Certificate_Sale-banner-2 .sale-banner-content .sale-banner-left-content .sub-heading {
         font-size: 14px;
@@ -35738,7 +35746,7 @@ button.like-anchor .is-icon-chevron-right {
     height: 100%;
     display: block;
     background-color: #fff;
-    color: #00a5ec;
+    color: #258a48;
     -webkit-animation-name: spin;
     animation-name: spin;
     -webkit-animation-duration: .3s;
@@ -35848,7 +35856,7 @@ button.like-anchor .is-icon-chevron-right {
 }
 
 #search_modal .search-container .search-bar-container .query-input {
-    caret-color: #00a5ec;
+    caret-color: #258a48;
     border: 1px solid #ddd;
     padding-left: calc(24px - 0px);
     padding-right: 80px;
@@ -35862,7 +35870,7 @@ button.like-anchor .is-icon-chevron-right {
 }
 
 #search_modal .search-container .search-bar-container .query-input:focus {
-    border: 1px solid #00a5ec
+    border: 1px solid #258a48
 }
 
 #search_modal .search-container .search-bar-container .search-icon {
@@ -35870,7 +35878,7 @@ button.like-anchor .is-icon-chevron-right {
     height: 56px;
     position: absolute;
     right: 0;
-    background: #00a5ec;
+    background: #258a48;
     border-radius: 0 3px 3px 0;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -35960,12 +35968,12 @@ button.like-anchor .is-icon-chevron-right {
 }
 
 #search_modal .search-container .search-bar-container .search-recommendation .suggestion.selected {
-    color: #006bc2;
+    color: #258a48;
     background: #eafcff
 }
 
 #search_modal .search-container .search-bar-container .search-recommendation .suggestion.selected .highlight {
-    border-bottom: 1px solid #006bc2
+    border-bottom: 1px solid #258a48
 }
 
 #search_modal .search-container .search-result-container {
